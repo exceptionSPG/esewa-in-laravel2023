@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccbd816a07b206f971042295b899d1ba",
+    "content-hash": "a5e3c682879d346e3576ebd355d41a14",
     "packages": [
         {
             "name": "brick/math",
@@ -61,6 +61,69 @@
                 }
             ],
             "time": "2022-08-10T22:54:19+00:00"
+        },
+        {
+            "name": "cixware/esewa-php-sdk",
+            "version": "2.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cixware/esewa-php-sdk.git",
+                "reference": "d15129bde814381bd00eade02fe54431a3cf371c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cixware/esewa-php-sdk/zipball/d15129bde814381bd00eade02fe54431a3cf371c",
+                "reference": "d15129bde814381bd00eade02fe54431a3cf371c",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-openssl": "*",
+                "ext-simplexml": "*",
+                "guzzlehttp/guzzle": "^7.5",
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.11",
+                "phpunit/phpunit": "^9.5",
+                "rector/rector": "^0.14"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Cixware\\Esewa\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cixware",
+                    "email": "support@cixware.io",
+                    "homepage": "https://cixware.io"
+                }
+            ],
+            "description": "eSewa payment gateway integration in PHP.",
+            "homepage": "https://developer.esewa.com.np",
+            "keywords": [
+                "api",
+                "esewa",
+                "fonepay",
+                "gateway",
+                "khalti",
+                "nepal",
+                "payment",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/cixware/esewa-php-sdk/issues",
+                "source": "https://github.com/cixware/esewa-php-sdk/tree/2.3.2"
+            },
+            "time": "2022-09-23T03:23:44+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
